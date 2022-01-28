@@ -1,0 +1,119 @@
+
+p:first-child{
+    font-family: 'Fraunces', serif;
+}
+
+/* LANDING PAGE */
+.landing{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-image: url(./images/desktop/image-header.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar-toggler:focus, .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.nav-item{
+padding: 0.5rem;
+}
+.nav-link {
+   color: #fff;
+   font-family: 'Barlow', sans-serif;
+   border-radius: 30px;
+   font-size: 11px;
+}
+
+.nav-link:hover {
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+}
+.landing-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    color: #fff;
+}
+
+/* SERVICES */
+
+.text-title{
+    Font-size: 2rem;
+    color: hsl(212, 27%, 19%);
+}
+.services a{
+    font-family: 'Fraunces', serif;
+    Font-size: 15px;
+    text-decoration: none;
+    color: hsl(212, 27%, 19%);
+
+}
+
+.img-title, .img-title1{
+    font-size: 18px;
+}
+
+.img-text , .img-text1{
+    font-size: 15px;
+    opacity: 0.7;
+}
+
+
+/* CLIENTS */
+
+.testimonials .name{
+    font-family: 'Fraunces', serif;
+}
+.client-test{
+    font-size: 15px;
+    color: hsl(213, 9%, 39%)
+}
+.testimonials .position{
+    font-size: 11px;
+    color: hsl(232, 10%, 55%);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: hsla(168, 34%, 41%,0.7);
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+.bottom-nav a{
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+
+.bottom-nav ul li{
+    list-style-type: none;
+}
+.socials a{
+    padding-right: 1.2rem;
+}
+.socials {
+    margin-top: 50px;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 375px) {
+   
+    .img-text , .img-text1{
+        font-size: 11px;
+        
+    }
+}
